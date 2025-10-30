@@ -112,5 +112,8 @@ def main():
 
     print('Finished. Outputs written to', args.output_dir)
 
-if __name__=='__main__':
-    main()
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 10000))  # Render provides PORT
+    app.run(host="0.0.0.0", port=port)
+
