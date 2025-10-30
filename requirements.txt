@@ -1,5 +1,5 @@
-opencv-python==4.9.0.80
-numpy==1.26.1
+opencv-python>=4.10.0
+numpy>=2.0
 matplotlib
 pandas
 scipy
